@@ -1,0 +1,40 @@
+[
+    {
+        "id": 1,
+        "question": "What is JavaScript?",
+        "options" : [
+            {"answer": "A) an interpreted programming language", "correct": true},
+            {"answer": "B) a compiled language", "correct": false},
+            {"answer": "C) a pokemon", "correct": false},
+            {"answer": "D) None", "correct": false}
+        ]
+    },
+    {
+        "id": 2,
+        "question": "Is JavaScript case-sensitive?",
+        "options" : [
+            {"answer": "A) NO ", "correct": false},
+            {"answer": "B) YES", "correct": true}
+        ]
+    },
+    {
+        "id": 3,
+        "question": "What is a Callback?",
+        "options" : [
+            {"answer": "A) A callback is a plain JavaScript function passed to some method as an argument", "correct": true},
+            {"answer": "B) A phone number", "correct": false},
+            {"answer": "C) IS NOT A JS FEATURE", "correct": false},
+            {"answer": "D) Option A is correct", "correct": false}
+        ]
+    },
+    {
+        "id": 4,
+        "question": "Select a non-primitive type",
+        "options" : [
+            {"answer": "A) String", "correct": false},
+            {"answer": "B) Number", "correct": false},
+            {"answer": "C) Array", "correct": true},
+            {"answer": "D) Boolean", "correct": false}
+        ]
+    }
+]

@@ -1,0 +1,124 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.correct {
+  border: green solid 2px;
+}
+
+.error {
+  border: red solid 2px;
+}
+
+.start-div{
+  background-color: #241957;
+  padding: 25px;
+  border-radius: 25px;
+}
+
+.start-button{
+  width: 100px;
+  height: 50px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.finished-button{
+  margin-top: 35px;
+  border-radius: 25px;
+  width: 200px;
+  text-align: center;
+  
+}
+
+.answer-button{
+  margin: 10px;
+  border-bottom: 1px solid #1111;
+}
+
+.answer-wrapper{
+  background-color: #1a1a1a;
+  border: 1px solid black;
+  
+}
+
+.question-div{
+  background-color: rgba(9, 4, 25, 0.467);
+  border-radius: 25px;
+  padding: 5px;
+  margin: 15px;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 30vh;
+  left: 10%;
+  width: 80%;
+  z-index: 100;
+  overflow: hidden;
+}
+
+.header {
+  background: #4f005f;
+  padding: 1rem;
+  padding: 40px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.modal-button{
+  text-align: center;
+  width: 300px;
+  border-radius: 25px;
+}
